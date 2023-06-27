@@ -1,0 +1,23 @@
+RANDOM FOREST CLASSIFIER
+Best Parameters: {'rf_classifier__criterion': 'gini', 'rf_classifier__max_depth': 5, 'rf_classifier__max_features': 'auto', 'rf_classifier__min_samples_leaf': 2, 'rf_classifier__min_samples_split': 10, 'rf_classifier__n_estimators': 100}
+Best Score: 0.8910714285714286
+Accuracy: 0.825
+
+GRADIENT BOOST
+Best Parameters: {'classifier__learning_rate': 0.001, 'classifier__max_depth': 3, 'classifier__n_estimators': 50}
+Best Score: 0.8875
+Accuracy: 0.8125
+
+SVM
+Best Parameters: {'classifier__C': 1, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}
+Best Score: 0.875
+Accuracy: 0.8208333333333333
+
+LOGISTIC REGRESSION
+Best Parameters: {'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}
+Best Score: 0.8803571428571428
+Accuracy: 0.8041666666666667
+
+KNN
+K = 3
+Accuracy : 0.85
